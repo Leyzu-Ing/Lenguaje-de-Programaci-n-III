@@ -1,0 +1,33 @@
+//Actividad creaada por Uziel de Jesús López Ornelas.
+//Formulario sencillo en la consola.
+
+//Declaración de Variables.
+string nombre;
+int edad;
+string fecha_nacimiento;
+string carrera;
+
+//Titulo de bienvenida.
+Console.WriteLine("Bienvenidos a UMI/Universidad Coppel");
+Console.ReadKey();
+Console.WriteLine("\nFavor de colocar los siguientes datos:");
+
+//Codificación para el formulario.
+Console.WriteLine("\nNombre Completo: ");
+nombre = Console.ReadLine();
+Console.WriteLine("\nEdad: ");
+edad = int.Parse(Console.ReadLine());
+Console.WriteLine("\nFecha de Nacimiento dd/mm/aaaa: ");
+fecha_nacimiento = Console.ReadLine();
+Console.WriteLine("\nCarrera a la que desea Ingresar: ");
+carrera = Console.ReadLine();
+
+Console.WriteLine("\nFavor de presionar enter para ver el resumen");
+Console.ReadKey();
+
+//Etapa final.
+
+Console.WriteLine("\nGracias " + nombre + " por formar parte de UMI/Universidad Coppel, Bienvenido a la carrera " + carrera);
+Console.ReadKey();
+
+Console.WriteLine("\nLos Datos fueron Guardados, Favor de presionar enter para salir");
